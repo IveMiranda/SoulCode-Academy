@@ -1,0 +1,368 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(to right, #3cb4c4, white 60%, #f8c200);
+    display: flex;
+    height: 100px;
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+}
+.divLogo{
+    width: 15%;
+}
+.logo-header{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+}
+nav{
+    width: 60%;
+    padding-top: 22px;
+}
+.menu{
+    padding-left: 0;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+}
+.divBusca{
+    background-color: white;
+    display: flex;
+    border-radius:10px;
+    height:37px;
+    width: 22%;
+    margin-top: 33px;
+    margin-right: 20px;
+}
+.txtBusca{
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width: 70%;
+}
+.btnBusca{
+    border-bottom-right-radius: 10px;
+    cursor:pointer;
+    height: 100%;
+}
+main{
+    padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+section{
+    border-bottom: 2px solid black;
+    display: flex;
+}
+.div1{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.img-section{
+    width: 100%;
+}
+.div2{
+    width: 50%;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 20px;
+}
+.p-estilizado{
+    color: #18545c;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 23px;
+}
+figure{
+    margin-bottom: 40px;
+}
+#equipe{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+}
+figcaption{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.div-parceiro{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.219);
+    
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+.div-parceiro img{
+    width: 40%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.div-parceiro p{
+    padding: 0 15px;
+    font-size: 19px;
+    width: 60%;
+}
+.div3{
+    text-align: center;
+    width: 33.3%;
+    padding: 20px;
+}
+h3{
+    font-size: 25px;
+}
+.div3 img{
+    width: 20%;
+}
+.div3 p{
+    background-color: rgba(128, 128, 128, 0.219);
+    padding: 20px;
+    border-radius: 20px;
+}
+.inscreva{
+    text-decoration: none;
+    color: #f39600;
+    font-weight: bold;
+}
+.banner{
+    width: 10%;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+footer{
+    background-color: #3cb4c4;
+    height: 100px;
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.logo-footer{
+    width: 100%;
+}
+.texto-footer{
+    padding-top: 35px;
+    padding-left: 110px;
+    width: 70%;
+}
+.redes{
+    width: 30%;
+    text-align: center;
+    padding-top: 30px;
+}
+.icone{
+    width: 10%;
+    padding: 0 10px;
+}
+/* Cursos*/
+.info-cursos{
+    font-size: 20px;
+    text-align: justify;
+}
+.info-cursos li{
+    padding: 20px 20px;
+}
+#cursos{
+    margin-bottom: 0px;
+}
+.button-cursos{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+.button-cursos a{
+    color: #3cb4c4;
+    text-decoration: none;
+}
+.div2-cursos{
+    text-align: center;
+}
+.p-logica{
+    height: 240px;
+}
+#img-logica{
+    width: 100%;
+    margin-top: 65px;
+}
+#d6 p{
+    text-align: center;
+    margin-top: 100px;
+}
+form{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+}
+label{
+    font-size: 20px;
+}
+form input{
+    width: 97%;
+    height: 40px;
+    margin: 10px;
+}
+select{
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+}
+/* Parceria */
+#h1-parceria{
+    margin-bottom: 0;
+}
+#div1-parceria{
+    margin:5% 5% 5% 5%;
+    width: 90%;
+    background-color: #3cb4c4;
+    background-image: url('img/logoSoul.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    border-radius: 20px;
+}
+#div1-parceria ul{
+    font-size: x-large;
+    margin:0px 0px 0px 10%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.924);
+    padding: 20px;
+    border-radius: 20px;
+}
+#div1-parceria .especial{
+    text-align: center;
+    font-size: xx-large;
+    font-variant: small-caps;
+}
+#escrita{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}
+#escrita p{
+    margin: 5%;
+    text-align:justify;
+}
+#imagens{
+    margin-top:40%;
+    width: 100%;
+    height: 100%;
+}
+#imagens img{
+    width: 99.8%;
+}
+/* .especial{
+    font-family: "Dela Gothic One";
+    font-size: x-large;
+    text-align: center;
+} */
+.div3-parcerias img{
+    width: 100%;
+    margin-top: 129px;
+    border-style: solid;
+    border-width: thin;
+}
+#notebook1{
+    margin-top: 0px;
+}
+.div3 .especial{
+    text-align: left;
+    font-size: xx-large;
+    font-variant: small-caps;
+}
+#p-modelos{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 5px;
+}
+.button-parcerias{
+    margin: 10px;
+    background-color: #3cb4c4;
+    font-size: x-large;
+    box-shadow: 2px 2px 1px black;
+    border-style: none;
+}
+.button-parcerias a{
+    text-decoration: none;
+    color: black;
+}
+/* Quem Somos */
+.p-quemsomos{
+    height: 400px;
+}
+#texto-banner{
+    text-align: center;
+}
+#icone-uniao{
+    width: 30%;
+}
+.mini-banner{
+    position: absolute;
+    right: 150px;
+    top: 1480px;
+    width: 250px;
+}
+h4, .div-content ul{
+    font-size: 20px;
+}
+.section1col .div-content{
+    margin-bottom: 50px;
+}
+/* Contato */
+#div-form-contato{
+    display: flex;
+}
+.formulario-contato {
+    margin: 30px;
+    margin-left: 280px;
+    width: 300px;
+    border-width: 6px;
+    border-style: double;
+    border-color: rgb(118, 171, 231);
+    text-align: center;
+    background-color: rgb(247, 243, 238);
+}
+.img-contato-form{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 700px;
+}
+#link-msg{
+    width: 50%;
+}
+#imagem-carta{
+    width: 65%;
+}
